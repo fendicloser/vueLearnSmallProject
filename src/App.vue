@@ -6,22 +6,25 @@
       <router-link to="/">Hodme</router-link> |
       <router-link to="/about">Afut</router-link> |
       <button @click="goback">hahha</button>
-   
     </div>
     <router-view/>
+    <tryView />
   </div>
 </template>
 <script>
+import tryView from './views/tryView'
 export default {
     methods:{
       goback:function(){
         this.$router.push({path:'/goodSelection'})
       }
+    },
+    components:{
+      tryView,
     }
+    
 }
-
 </script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

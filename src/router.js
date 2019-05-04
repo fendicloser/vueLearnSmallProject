@@ -13,7 +13,6 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-
     {
       path:'/goodSelection',
       name:'goodsSelection',
