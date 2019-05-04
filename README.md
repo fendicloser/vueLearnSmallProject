@@ -29,4 +29,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-add new routers
+add new routers, 使用两种方法进行路由。
